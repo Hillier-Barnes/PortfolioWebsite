@@ -9,6 +9,10 @@
 }
 
 @media screen and (max-width: 1200px) {
+    html {
+        scroll-behavior: smooth;
+        scroll-snap-type: none;
+    }
     #desktop-nav {
         display: none;
     }
