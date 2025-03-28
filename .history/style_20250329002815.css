@@ -179,9 +179,9 @@ section {
 }
 
 .about-pic {
-    width: 100%;             
-    height: 100%;            
-    object-fit: cover;       
+    width: 100%;             /* Fills the container width */
+    height: 100%;            /* Fills the container height */
+    object-fit: cover;       /* Prevents image distortion (crops if needed) */
 }
 
 

@@ -174,15 +174,20 @@ section {
     height: 500px;
     width: 500px;
     margin: auto 0;
-    border-radius: 50%;       
-    overflow: hidden;         
-}
-
-.about-pic {
-    width: 100%;             
-    height: 100%;            
-    object-fit: cover;       
-}
+    .section__pic-container {
+        display: flex;
+        height: 500px;
+        width: 500px;
+        margin: auto 0;
+        border-radius: 50%;       /* Makes the container circular */
+        overflow: hidden;         /* Ensures the image stays clipped inside the circle */
+    }
+    
+    .about-pic {
+        width: 100%;             /* Fills the container width */
+        height: 100%;            /* Fills the container height */
+        object-fit: cover;       /* Prevents image distortion (crops if needed) */
+    }
 
 
 .section__text {
